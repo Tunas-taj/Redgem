@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Artifakt';
+    src: url('/static/fonts/ArtifaktElement-Black.woff2') format('woff2'),
+         url('/static/fonts/ArtifaktElement-Black.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.artifakt-element-black {
+    font-family: 'Artifakt', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(134, 199, 201);
+}
