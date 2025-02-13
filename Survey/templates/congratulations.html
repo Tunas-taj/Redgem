@@ -37,7 +37,7 @@
 
             .element-position {
 				position: absolute;
-				left: 50%;        
+				left: 60%;        
 				bottom: 25%;      
 				transform: translateX(-50%); 
 			}
@@ -53,13 +53,6 @@
 				border-radius: 12px;
 			}
 
-            .letter-red{
-				position: absolute;
-				top: 13.5%;
-				left: 70%;
-				font-size: 60px;
-				color:  whitesmoke;
-			}
             .img-red{
 				position: fixed;
 				margin-top: -380px;
@@ -67,15 +60,22 @@
 			}
 			.img-logo{
 				position: absolute;
-				top: 5.3%;
-				left: 50%;
+				top: 4%;
+				left: 45%;
+			}
+			.letter-red{
+				position: absolute;
+				top: 13%;
+				left: 60%;
+				font-size: 45px;
+				color:  whitesmoke;
 			}
         </style>   
         <!-- ================== END BASE CSS STYLE ================== -->
     </head>
     <body>
         <div>
-			<img class='img-red' src="{% static 'assets\img\img-red.webp' %}" width="2000" height="1030">
+			<img class='img-red' src="{% static 'assets\img\img-red.webp' %}" width="2000" height="1000">
 			<img class='img-logo' src="{% static 'assets\img\img-logo.webp' %}" width="180" height="auto">
 			<p class="artifakt-element-black letter-red">RedGem</p>
 		</div> 
